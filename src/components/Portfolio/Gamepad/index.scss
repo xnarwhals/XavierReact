@@ -1,0 +1,127 @@
+.project-area {
+    justify-content: center;
+    pointer-events: all;
+
+    .gamepad {
+        right: 0;
+        align-content: center;
+        justify-content: center;
+        top: 20%;
+        position: absolute;
+        display: flex;
+        width: 60%;
+        height: auto;
+
+        p {
+            color: #000000;
+            font-family: "Pixel";
+            font-size: 14px;
+            animation: none;
+            font-weight: 600;
+        }
+
+        .gameboy-image {
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            object-fit: contain; // Ensure the image fits nicely
+
+        }
+    }
+
+     /* Drop Area Styling */
+     .drop-area {
+        justify-items: center;
+        top: -25%;
+        position: absolute;
+        width: 36%;
+        height: 70%;
+        border: 2px dashed #00ff9d; /* Dashed border for the drop area */
+        transition: border-color 0.3s ease, background-color 0.3s ease;
+        z-index: 0;
+        pointer-events: all;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    /* Highlight the drop area when a cartridge is hovered over */
+    .drop-area.highlight {
+        border-color: #56d56d; /* Green color on hover */
+        background-color: rgba(0, 255, 0, 0.2); /* Light green background on hover */
+    }
+
+    .button {
+        z-index: 3;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+        cursor: pointer;
+
+        &.button-a {
+            top: 140px;
+            left: 642px;
+        }
+
+        &.button-b {
+            top: 163px;
+            left: 576px;
+        }
+
+        &.up {
+            border-radius: 0;
+            width: 30px;
+            height: 30px;
+            top: 129px;
+            left: 85px;
+        }
+
+        &.down {
+            border-radius: 0;
+            width: 30px;
+            height: 30px;
+            top: 186px;
+            left: 85px;
+        }
+
+        &.left {
+            border-radius: 0;
+            width: 30px;
+            height: 30px;
+            top: 158px;
+            left: 55px;
+        }
+
+        &.right {
+            border-radius: 0;
+            width: 30px;
+            height: 30px;
+            top: 158px;
+            left: 115px;
+        }
+
+        &.start {
+            width: 20px;
+            height: 20px;
+            top: 260px;
+            left: 136px;
+        }
+
+        &.select {
+            width: 20px;
+            height: 20px;
+            top: 300px;
+            left: 136px;
+        }
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+}

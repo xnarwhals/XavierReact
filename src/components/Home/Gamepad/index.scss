@@ -1,0 +1,160 @@
+
+@import "~animate.css/animate.min.css";
+
+.gameboy {
+    position: absolute;
+    width: 700px; // Adjust to match your image size
+    height: auto;
+    margin: auto;
+    left: 45%;
+    top : 25%;
+
+    .gameboy-bg {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+  .button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+
+    // Adjust these to match the positions of your buttons on the PNG
+    &.dpad-up {
+        border-radius: 0;
+        height: 33px;
+        width: 30px;
+        top: 122px;
+        left: 83px;
+    }
+
+    &.dpad-down {
+        border-radius: 0;
+        height: 33px;
+        width: 30px;
+        top: 180px;
+        left: 83px;
+    }
+
+    &.dpad-left {
+        border-radius: 0;
+        height: 30px;
+        width: 33px;
+        top: 152px;
+        left: 52px;
+    }
+    &.dpad-right {
+        border-radius: 0;
+        height: 30px;
+        width: 33px;
+        top: 152px;
+        left: 110px;
+    }
+
+    &.button-b {
+        width: 40px;
+        height: 40px;
+        top: 158px;
+        left: 560px;
+      }
+
+    &.button-a {
+        width: 40px;
+        height: 40px;
+        top: 135px;
+        left: 624px;
+    }
+
+    &.button-start {
+        width: 20px;
+        height: 20px;
+        top: 253px;
+        left: 134px;
+    }
+
+
+    &.button-select {
+        width: 20px;
+        height: 20px;
+        top: 294px;
+        left: 134px;
+    }
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .screen {
+    position: absolute;
+    top: 18%; 
+    left: 27.5%; 
+    width: 45%; 
+    height: 53%;
+    background: black; 
+    border: 1px solid #444; 
+    border-radius: 8px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .screen-content {
+      text-align: center;
+      color: limegreen; // Text color for a retro feel
+      font-family: 'Pixel', sans-serif; // Use the pixel font
+      font-size: 12px;
+
+    }
+
+    .secret-icon {
+      border: 2px solid limegreen;
+      padding: 5px;
+      font-size: 50px;
+      color: limegreen;
+      animation: glow 1s infinite alternate;
+    }
+
+    .error {
+        display: inline;
+        color: red;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+  }
+
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #fff;
+  }
+  50% {
+    box-shadow: 0 0 20px limegreen;
+  }
+  100% {
+    box-shadow: 0 0 5px #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .gameboy {
+      visibility: hidden;
+      display: none;
+    }
+    .home-page .text-area {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+}
+

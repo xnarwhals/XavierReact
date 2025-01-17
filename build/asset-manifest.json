@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74dbeeff.css",
+    "main.js": "/static/js/main.ae195a18.js",
+    "static/js/453.3a7d6ace.chunk.js": "/static/js/453.3a7d6ace.chunk.js",
+    "static/media/Game_Selva.png": "/static/media/Game_Selva.7a42635a8e9a378ae7ee.png",
+    "static/media/static.png": "/static/media/static.da3674f3fbc4d068564b.png",
+    "static/media/user.png": "/static/media/user.06fe70a2c25c7fa9a867.png",
+    "static/media/Game_Apt510.png": "/static/media/Game_Apt510.a919ac5e83a5d8abf331.png",
+    "static/media/Game_Colorezz.png": "/static/media/Game_Colorezz.ba2d6d2d6137f59d32db.png",
+    "static/media/Selva.png": "/static/media/Selva.8848de3741040d5f9475.png",
+    "static/media/ColorezzBack.png": "/static/media/ColorezzBack.2007fb47a4f7275f0a9e.png",
+    "static/media/Gameboy.png": "/static/media/Gameboy.ae3e901e6a243e7e326d.png",
+    "static/media/SelvaBack.png": "/static/media/SelvaBack.9c7ba18fed7daa3b4be2.png",
+    "static/media/VPVR.png": "/static/media/VPVR.061d8b9b7cbb530f7989.png",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.27f62b53b93858475a7f.ttf",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/VPVRBack.png": "/static/media/VPVRBack.b44c7fe27bb02a913949.png",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.b8cc747a58ffa52b7ff9.ttf",
+    "static/media/PressStart2P-Regular.ttf": "/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
+    "static/media/Colorezz.png": "/static/media/Colorezz.dba087a215481b3b0a07.png",
+    "static/media/logo-x.png": "/static/media/logo-x.92400992ef19075a66f9.png",
+    "static/media/logo_subx.png": "/static/media/logo_subx.2962f1b1af56bde37731.png",
+    "index.html": "/index.html",
+    "main.74dbeeff.css.map": "/static/css/main.74dbeeff.css.map",
+    "main.ae195a18.js.map": "/static/js/main.ae195a18.js.map",
+    "453.3a7d6ace.chunk.js.map": "/static/js/453.3a7d6ace.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74dbeeff.css",
+    "static/js/main.ae195a18.js"
+  ]
+}

@@ -1,0 +1,253 @@
+.screen {
+    // border: 2px solid #00ff9d;
+    background-color: black;
+    // background-color: transparent;
+    border-radius: 10px 10px 0px 0px;
+
+    z-index: 2;
+    position: absolute;
+    margin-left: 4px;
+    width: 43%;
+    height: 52%;
+    top: 18%;
+    color: #0e0000;
+    display: flex;
+
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+    .home-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        border-radius: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+    }
+
+    .trailer-container {
+        width: 100%;
+        height: 100%;
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .itchio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .itchIcon {
+            top: 0;
+            position: absolute;
+            font-size: 100px;
+            color: #00ff9d;
+        }
+
+        .buttonX {
+            top: 60%;
+            position: absolute;
+            font-size: 25px;
+            padding: 1px 20px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            position: absolute;
+        }
+    }
+
+    .credits-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        img {
+            border-radius: 10px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        p {
+            font-size: auto;
+            min-width: 100%;
+            line-height: 40px;
+            z-index: 2;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+    }
+
+    .extra-container,
+    .languages-container,
+    .design-container,
+    .frameworks-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: center;
+        padding: 20px; 
+        box-sizing: border-box;
+    
+        p {
+            color: #00ff9d; 
+            font-size: 22px; 
+            margin-bottom: 15px; 
+            text-align: center;
+            font-weight: bold;
+        }
+    
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 15px;
+            max-width: 90%; 
+    
+            li {
+                display: flex;
+                flex-direction: column; 
+                align-items: center;
+                text-align: center;
+                background: rgba(255, 255, 255, 0.1); 
+                border-radius: 8px;
+                padding: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+                transition: transform 0.3s ease, 0.3s ease; 
+    
+                &:hover {
+                    transform: translateY(-5px); 
+                    background: rgba(0, 255, 157, 0.2); 
+                }
+    
+                p {
+                    font-size: 14px; 
+                    margin-top: 10px;
+                    color: white;
+                }
+    
+                i {
+                    font-size: 48px;
+                    color: #00ff9d; 
+                }
+            }
+        }
+    }
+
+    .experience-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        h3 {
+            font-family: "Pixel";
+            color: #00ff9d;
+            font-size: 22px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        p { 
+            color:#00ff9d;
+            position: absolute;
+            top: 25%;
+        }
+
+    }
+
+    .platforms-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        h3 {
+            font-family: "Pixel";
+            color: #00ff9d;
+            font-size: 22px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+    
+        p { 
+            color:#00ff9d;
+            position: absolute;
+            top: 25%;
+        }
+
+        ul {
+            top : 55%;
+            position: absolute;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 15px;
+            max-width: 90%; 
+
+            li {
+                display: flex;
+                flex-direction: column; 
+                align-items: center;
+                text-align: center;
+                background: rgba(255, 255, 255, 0.1); 
+                border-radius: 8px;
+                padding: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+                transition: transform 0.3s ease, 0.3s ease; 
+
+                &:hover {
+                    transform: translateY(-5px); 
+                    background: rgba(0, 255, 157, 0.2); 
+                }
+
+                .icon {
+                    font-size: 48px;
+                }
+            }
+        }
+    }
+
+    .static-container {
+        width: 100%;
+        height: 100%;
+        z-index: 4;
+        animation: flicker 0.3s steps(5, start);
+        background: url("../../../assets/images/static.png") center center no-repeat;
+        background-size: cover;
+    }
+
+    @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+    }
+}
+

@@ -1,0 +1,12 @@
+Color Schemes
+
+#dc143c light crimison
+#800000 maroon
+#430f0f darker
+#333 greyscale
+#000000 black
+#F5F5DC soft beige
+#FFD700 gold 
+#D08F8F dusty pink
+#A83800 rust orange
+#008080 teal

@@ -1,0 +1,94 @@
+.contact-page {
+    width: 100%;
+    margin-top: 20px;
+    .contact-form {
+        ul {
+            padding : 0;
+            margin: 0;
+
+            li {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                margin-bottom: 10px;
+                opacity: 0;
+                overflow: hidden;
+                display: block;
+                clear: both;
+                position: relative;
+                animation: fadeInUp 2s 2s;
+                animation-fill-mode: forwards;
+            }
+
+            li.half{
+                width: 49%;
+                margin-left: 2%;
+                float: left;
+                clear: none;
+
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+
+        input[type='text'], 
+        input[type='email'] {
+            width: 100%;
+            border: 0;
+            background: #800000; // Color change 
+            height: 50px;
+            font-size: 16px;
+            color : #fff;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 100%;
+            min-width: 100%;
+            border: 0;
+            background: #800000; // Color change 
+            height: 50px;
+            font-size: 16px;
+            color : #fff;
+            padding: 20px;
+            min-height: 150px;
+            box-sizing: border-box;
+        }
+        
+        .flat-button {
+            color : #800000;
+            background: 0, 0;
+            font: 11px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            padding: 8px 10px;
+            border: 1px solid #800000;
+            float: right;
+            border-radius: 4px;
+
+            &:hover {
+                background: #800000;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-page {
+        .text-area {
+            position: static !important;
+            max-height: auto;
+            min-height: 350px;
+            float: left;
+            -webkit-transform: none !important;
+            -ms-transform: none !important;
+            transform: none !important;
+            margin-top: 170px;
+        }
+    }
+
+}
+

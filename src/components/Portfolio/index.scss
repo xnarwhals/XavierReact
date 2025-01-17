@@ -1,0 +1,62 @@
+.container.portfolio-page {
+    .text-area {
+        .buttonX {
+            z-index: 4;
+            position: absolute;
+            font-size: 16px;
+            padding: 5px 10px;
+            right: 30px;
+            top: 20px;
+
+            span {
+                margin-top: 20px;
+            }
+        }
+
+        top: 15%;
+
+        h1 {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.project-area {
+    display: flex;
+    margin-left: 10%;
+    // border: 1px solid #056ef6;
+    position: absolute;
+    top: 25%;
+    width: 1200px; // maybe come back
+    height: 500px;
+    
+}
+
+.cartridge-area {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    width: 500px;
+    height: 150px;
+    // border: 1px solid #e1e4e8; // testing
+    justify-content: center;
+    
+    ul {
+        display: flex; 
+        gap: 20px; 
+        list-style: none; 
+        padding: 0; 
+        margin: 0; 
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+
+
+
