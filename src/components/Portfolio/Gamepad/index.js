@@ -5,7 +5,7 @@ import { useState } from "react";
 import Gameboy from "../../../assets/images/Gameboy.png";
 import Screen from "../Screen";
 
-const Gamepad = ({ onCartridgeInsert }) => { // insertedCartridge is not used in this component
+const Gamepad = ({ onCartridgeInsert }) => { 
     const [currentCartridge, setCurrentCartridge] = useState(null);
     const [screenContent, setScreenContent] = useState("home");
 

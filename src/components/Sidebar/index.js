@@ -2,7 +2,7 @@ import './index.scss';
 import LogoX from '../../assets/images/logo-x.png';
 import LogoSubtitle from '../../assets/images/logo_subx.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope, faSuitcase, faBars} from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faSuitcase, faBars, faUserSecret} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faInstagram, faGithub, faYoutube, faItchIo} from '@fortawesome/free-brands-svg-icons';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -32,6 +32,9 @@ const Sidebar = () => {
                 <NavLink exact="true" activeClassName='portfolio-link' to = {isMobile ? "/quick-portfolio" : "/portfolio"} onClick={() => setShowNav(false)}>
                     <FontAwesomeIcon icon={faSuitcase} color="#4d4d4d" />
                 </NavLink>
+                {isMobile && <NavLink exact="true" activeClassName="secret-link" to="/secret" onClick={() => setShowNav(false)}>
+                    <FontAwesomeIcon icon={faUserSecret} color="#4d4d4d" />
+                </NavLink>}
             </nav>
             <ul>
                 <li>
