@@ -32,7 +32,7 @@ const Sidebar = () => {
                 <NavLink exact="true" activeClassName='portfolio-link' to = {isMobile ? "/quick-portfolio" : "/portfolio"} onClick={() => setShowNav(false)}>
                     <FontAwesomeIcon icon={faSuitcase} color="#4d4d4d" />
                 </NavLink>
-                {isMobile && <NavLink exact="true" activeClassName="secret-link" to="/#/secret" onClick={() => setShowNav(false)}>
+                {isMobile && <NavLink exact="true" activeClassName="secret-link" to="/secret" onClick={() => setShowNav(false)}>
                     <FontAwesomeIcon icon={faUserSecret} color="#4d4d4d" />
                 </NavLink>}
             </nav>
