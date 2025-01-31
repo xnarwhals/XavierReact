@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/XavierReact/static/css/main.c9ca0544.css",
-    "main.js": "/XavierReact/static/js/main.ec66ecbd.js",
+    "main.js": "/XavierReact/static/js/main.2cd80561.js",
     "static/js/488.4c9f16da.chunk.js": "/XavierReact/static/js/488.4c9f16da.chunk.js",
     "static/media/Game_Selva.png": "/XavierReact/static/media/Game_Selva.7a42635a8e9a378ae7ee.png",
     "static/media/static.png": "/XavierReact/static/media/static.da3674f3fbc4d068564b.png",
@@ -34,11 +34,11 @@
     "static/media/computer.svg": "/XavierReact/static/media/computer.018e2bafc256b2b6ca9c.svg",
     "static/media/game.svg": "/XavierReact/static/media/game.2ff5e608010d05d9b0f5.svg",
     "main.c9ca0544.css.map": "/XavierReact/static/css/main.c9ca0544.css.map",
-    "main.ec66ecbd.js.map": "/XavierReact/static/js/main.ec66ecbd.js.map",
+    "main.2cd80561.js.map": "/XavierReact/static/js/main.2cd80561.js.map",
     "488.4c9f16da.chunk.js.map": "/XavierReact/static/js/488.4c9f16da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9ca0544.css",
-    "static/js/main.ec66ecbd.js"
+    "static/js/main.2cd80561.js"
   ]
 }

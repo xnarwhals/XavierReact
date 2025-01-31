@@ -11,7 +11,8 @@ import * as THREE from 'three'
 
 export function Model({cover, isOpen, ...props}) {
   const group = React.useRef()
-  const { nodes, materials, animations } = useGLTF('/BoosterPack.glb')
+  const { nodes, materials, animations } = useGLTF(`${process.env.PUBLIC_URL}/BoosterPack.glb`);
+  useGLTF.preload(`${process.env.PUBLIC_URL}/BoosterPack.glb`);
   const { actions } = useAnimations(animations, group)
   const glowMaterial = materials['Glow']
   const [currentCover, setCurrentCover] = useState(cover)
