@@ -15,7 +15,7 @@ const Sidebar = () => {
 
     return (
         <div className='nav-bar'>
-            <Link className="logo" to="/#/" onClick={() => setShowNav(false)}>
+            <Link className="logo" to="/" onClick={() => setShowNav(false)}>
                 <img src={LogoX} alt="logo" />
                 <img className="sub-logo" src={LogoSubtitle} alt="Xavier" />
             </Link>
