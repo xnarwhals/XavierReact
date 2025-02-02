@@ -1,0 +1,95 @@
+
+.container.gameboy-page {
+    .gameboy {
+        left: 0;
+        top: 15%;
+        width: 100%;
+    }
+
+    .screen {
+        top: 13%; 
+        left: 24.5%; 
+        width: 50%; 
+        height: 31%;
+    }
+
+    .button {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+        cursor: pointer;
+    
+        // Adjust these to match the positions of your buttons on the PNG
+        &.dpad-up {
+            border-radius: 0;
+            height: 33px;
+            width: 36px;
+            top: 56.55%;
+            left: 16.8%;
+            border-radius: 1px;
+        }
+    
+        &.dpad-down {
+            border-radius: 0;
+            height: 33px;
+            width: 36px;
+            top: 67%;
+            left: 16.8%;
+            border-radius: 1px;
+        }
+    
+        &.dpad-left {
+            border-radius: 0;
+            height: 36px;
+            width: 33px;
+            top: 61.5%;
+            left: 8.8%;
+            border-radius: 1px;
+        }
+        &.dpad-right {
+            border-radius: 0;
+            height: 36px;
+            width: 33px;
+            top: 61.5%;
+            left: 25.5%;
+            border-radius: 1px;
+        }
+    
+        &.button-b {
+            width: 51px;
+            height: 51px;
+            top: 63%;
+            left: 58.5%;
+          }
+    
+        &.button-a {
+            width: 51px;
+            height: 51px;
+            top: 57.5%;
+            left: 74.5%;
+        }
+    
+        &.button-start {
+            rotate: -26deg;
+            width: 80px;
+            height: 20px;
+            top: 81.3%;
+            left: 41%;
+        }
+    
+    
+        &.button-select {
+            rotate: -26deg;
+            width: 80px;
+            height: 20px;
+            top: 81.3%;
+            left: 21%;
+        }
+    
+        &:hover {
+          background: rgba(0, 0, 0, 0.5);
+        }
+      }
+}

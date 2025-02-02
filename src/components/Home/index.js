@@ -12,6 +12,8 @@ const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['a', 'v', 'i', 'e', 'r'];
     const titleArray = ['G', 'a', 'm', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+
+    const isMobile = window.innerWidth <= 768;
     
     // useEffect(() => {
     //     return setTimeout(() => {
@@ -37,7 +39,7 @@ const Home = () => {
                     <h2>Student / Unity Programmer / Filmmaker</h2>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div>
-                <Gamepad className="game-img"/>
+                <Gamepad />
             </div>
             <Loader type="pacman" />
         </>

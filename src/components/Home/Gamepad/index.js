@@ -1,5 +1,6 @@
 import './index.scss';
 import Gameboy from '../../../assets/images/Gameboy.png';
+import OriginalGameboy from '../../../assets/images/OG_Gameboy.png';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
@@ -8,6 +9,9 @@ import { NavLink } from 'react-router-dom';
 const Gamepad = () => {
     const [inputs, setInputs] = useState([]);
     const [isKonamiUnlocked, setIsKonamiUnlocked] = useState(false);
+
+    const isMobile = window.innerWidth <= 768;
+    const gameboyImage = isMobile ? OriginalGameboy : Gameboy;
 
     const KONAMI_CODE = ["Up", "Up", "Down", "Down", "Left", "Right", "Left", "Right", "B", "A"];
 
@@ -31,7 +35,7 @@ const Gamepad = () => {
     return (
         // Change Start once idea
         <div className="gameboy">
-            <img src={Gameboy} alt="Gameboy" className="gameboy-bg" />
+            <img src={gameboyImage} alt="Gameboy" className="gameboy-bg" />
             <div className="screen">
                 <div className="screen-content">
                     {isKonamiUnlocked ? (
@@ -60,8 +64,6 @@ const Gamepad = () => {
             <div className="button button-b" onClick={() => handleInput("B")}></div> 
             <div className="button button-start" onClick={resetInputs}></div> 
             <div className="button button-select" onClick={resetInputs}></div>
-            <div className="info">
-            </div>
         </div>
     )
 }
