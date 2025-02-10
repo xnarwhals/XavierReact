@@ -40,19 +40,19 @@ const About = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']} idx={15} />
                     </h1>
                     <p> 
-                        One of my core memories is watching my brother play Pokemon on the Nintendo 64, 
-                        as I grew I realized that the ability to create worlds and stories was something that I wanted to do.
-                        In order to do that I started to learn how to code and create video games.
+                        One of my core memories is watching my brother play Pokémon on the Nintendo 64. 
+                        As I grew, I realized that the ability to create worlds and stories was something that I wanted to do.
+                        In order to do that, I started to learn how to code and create video games.
                     </p>
                     <p align="LEFT"> 
-                        I am a now Sophmore at UC Davis studying computer science. In my free time I love to craft my skills
-                        in game/website development and film making. As a student I am always looking for new ways to learn and grow 
-                        outside of just academics such as with my roles as a peer-mentor and ambassador for my college!
+                        I am now a sophomore at UC Davis studying computer science. In my free time, I love to craft my skills.
+                        with game/website development and filmmaking. As a student, I am always looking for new ways to learn and grow
+                        outside of academics, such as with my roles as a peer mentor and ambassador for my college!
                     </p>
                     <p> 
-                        I live by the saying to "invest in yourself" and I believe that the best way to do that 
-                        is to grow and learn from the people around you. My current goal is to have my investments in
-                        myself pay off by landing a internship in the tech industry.
+                        I live by the saying to "invest in yourself," and I believe that the best way to do that 
+                        is to grow and learn from the people around you. My current goal is to have my investments
+                        land me an internship within tech!
                     </p>
                 </div>  
                 <div className="left-side-about">
@@ -84,7 +84,7 @@ const About = () => {
                                         )}
                                         contentStyle={{
                                             background: "#ffffff",
-                                            color: "balck",
+                                            color: "black",
                                             boxShadow: "0px 3px 6px rgba(0, 0, 0, 0.16)",
                                         }}
                                         contentArrowStyle={{ borderRight: "7px solid #ffffff" }}

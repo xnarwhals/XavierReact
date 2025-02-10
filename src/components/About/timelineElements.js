@@ -4,7 +4,7 @@ const timelineElements = [
         id: 1,
         title: "NSF Camp Emerging Scholar",
         location: "University of California Davis",
-        description: "Through faculty-mentored research, academic workshops, and community-building experiences, I am developing advanced research skills, building my professional network, and preparing for graduate studies. This program aligns with my goal of creating impactful technology while fostering representation in STEM fields.",
+        description: "Learning about how to get involved in research through academic workshops and community-building experiences. This program aligns with my goal of creating impactful technology while fostering representation in STEM fields.",
         date: "2025",
         icon: "research",
     },
@@ -36,7 +36,7 @@ const timelineElements = [
         id: 5,
         title: "Gameheads",
         location: "Oakland, CA",
-        description: "I am a student programer that has worked on three games as lead programmer. This program combines my passion for video games and storytelling since the games I create have embeded culture and messages.",
+        description: "I am a student programmer who has worked on three games as lead programmer. This program combines my passion for video games and storytelling since the games I create have embedded culture and messages.",
         date: "June 15, 2022",
         icon: "game",
     }

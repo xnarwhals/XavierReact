@@ -12,7 +12,7 @@ const cartridgeData = [
             textColor: "#55883B"
         },
         gameGist: "2022 Jungle Adventure 2D Platformer",
-        experience: "Unity Engine Workflow, Dynamic Player Movement, Intro to C#, and Tilemaping",
+        experience: "Unity Engine Workflow, Dynamic Player Movement, Intro to C#, and Tilemapping",
         itchLink: "https://gameheads.itch.io/selva",
         platforms: "Windows, Mac, Controller Support"
     },
@@ -25,7 +25,7 @@ const cartridgeData = [
         colors: {
             mainColor: "#219ebc",
             complementaryColor: "#fb8500",
-            textColor: "219ebc"
+            textColor: "#219ebc"
         },
         gameGist: "2023 Fixed 2D First Person Shooter",
         experience: "Basic Shader Graph, Unity New Input System, Version Control, and Working with Other Programmers",
