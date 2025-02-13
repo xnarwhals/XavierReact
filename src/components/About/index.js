@@ -45,7 +45,7 @@ const About = () => {
                         In order to do that, I started to learn how to code and create video games.
                     </p>
                     <p align="LEFT"> 
-                        I am now a sophomore at UC Davis studying computer science. In my free time, I love to craft my skills.
+                        I am now a sophomore at UC Davis studying computer science. In my free time I enjoy to hone my skills
                         with game/website development and filmmaking. As a student, I am always looking for new ways to learn and grow
                         outside of academics, such as with my roles as a peer mentor and ambassador for my college!
                     </p>

@@ -25,7 +25,7 @@ const cartridgeData = [
         colors: {
             mainColor: "#219ebc",
             complementaryColor: "#fb8500",
-            textColor: "#219ebc"
+            textColor: "#00FFFF"
         },
         gameGist: "2023 Fixed 2D First Person Shooter",
         experience: "Basic Shader Graph, Unity New Input System, Version Control, and Working with Other Programmers",
