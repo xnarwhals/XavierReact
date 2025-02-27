@@ -26,9 +26,9 @@ const timelineElements = [
     },
     {
         id: 4,
-        title: "Computer Science Major",
+        title: "Computer Science and Cinema Major",
         location: "University of California Davis",
-        description: "I am currently a sophomore at UC Davis studying computer science. I am passionate about learning new programming languages and building projects that challenge me to think creatively and critically.",
+        description: "I am currently a sophomore at UC Davis pursuing a double major in Computer Science and Cinema & Digital Media. I am passionate about learning new programming languages and building projects that challenge me to think creatively and critically.",
         date: "March 10, 2023",
         icon: "computer",
     },

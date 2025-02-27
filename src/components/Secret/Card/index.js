@@ -20,6 +20,7 @@ const Card = ({ packType, prompt, promptType, answer, rarity, icon}) => {
         ))
     }
 
+    const properPromptTitle = prompt.split("_").join(" "); // remove _ from prompts with spaces
     return (
         <div className="card">
             <img src={require(`../../../assets/images/Card${packType}.png`)} alt={packType} className="card-image" />
@@ -27,7 +28,7 @@ const Card = ({ packType, prompt, promptType, answer, rarity, icon}) => {
                 <div className="icon-container">
                     <img src={isValidIcon(icon) ? icon : placeholderIcon} alt="icon" className="icon" />
                 </div>
-                <h2 className="prompt-box">{promptType}<br/>{prompt}</h2>
+                <h2 className="prompt-box">{promptType}<br/>{properPromptTitle}</h2>
                 <p className="answer-box">{answer}</p>
                 <div className="rarity-box">
                     {renderStars(rarity)}

@@ -1,8 +1,4 @@
 
-
-// Each card should have background 
-// 
-// Xavier's favorite
 const CardData = [
    {
       id: "Selva",
@@ -23,9 +19,9 @@ const CardData = [
       cardBaseImg: require("../../../assets/images/CardSelva.png"),
       rarities: ["1", "2", "3"],
       types: ["My Favorite ", "Stat"],
-      promptsFavorite: ["Pokemon", "Artstyle", "FPS Game", "Caffeine Drink", "Song", "Month"],
+      promptsFavorite: ["Pokemon", "Artstyle", "FPS_Game", "Caffeine_Drink", "Song", "Month"],
       answersFavorite: ["Samurott", "Toon Shaded", "Overwatch", "ZOA", "Lovers Rock", "December"],
-      promptsStatistic: ["Pokemon Emerald Hours", "Pokemon Go Distance", "Max Consecutive Pushups"],
+      promptsStatistic: ["Pokemon_Emerald_Hours", "Pokemon_Go_Distance", "Max_Consecutive_Pushups"],
       answersStatistic: ["216", "11,623.4 km", "100+"],
    },
    {
@@ -33,7 +29,7 @@ const CardData = [
       cardBaseImg: require("../../../assets/images/CardSelva.png"),
       rarities: ["1", "2", "3"],
       types: ["My Favorite ", "Stat"],
-      promptsFavorite: ["Project", "Console", "Fast Food", "Exercise", "Historical Figure", "YouTube Channel"],
+      promptsFavorite: ["Project", "Console", "Fast_Food", "Exercise", "Historical_Figure", "YouTube_Channel"],
       answersFavorite: ["Apartment 510!", "PS4", "Angry Chickz", "Endless Walking!", "LebBron James", "Fireship"],
       promptsStatistic: ["Pokemon Sword Hours", "Animes Watched", "Ideal Caffeine Intake"],
       answersStatistic: ["624", "130", "200 mg"],
