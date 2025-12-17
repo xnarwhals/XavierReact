@@ -1,5 +1,5 @@
 import AnimatedLetters from '../AnimatedLetters';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import User from '../../assets/images/user.png';
 
@@ -25,12 +25,6 @@ const About = () => {
         }
     }
 
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //       setLetterClass('text-animate-hover')
-    //     }, 3000)
-    //   }, [])
-
     return (
         <>
             <div className="container about-page">
@@ -45,7 +39,7 @@ const About = () => {
                         In order to do that, I started to learn how to code and create video games.
                     </p>
                     <p align="LEFT"> 
-                        I am now a sophomore at UC Davis studying Computer Science and Cinema & Digital Media. In my free time I enjoy honing my skills
+                        I am now a junior at UC Davis studying computer science and cinema & digital media. In my free time I enjoy honing my skills
                         with game/website development and filmmaking. As a student, I am always looking for new ways to learn and grow
                         outside of academics, such as with my roles as a peer mentor and ambassador for my college!
                     </p>

@@ -19,7 +19,7 @@ const CardData = [
       cardBaseImg: require("../../../assets/images/CardSelva.png"),
       rarities: ["1", "2", "3"],
       types: ["My Favorite ", "Stat"],
-      promptsFavorite: ["Pokemon", "Artstyle", "FPS_Game", "Caffeine_Drink", "Song", "Month"],
+      promptsFavorite: ["Pokemon", "Artstyle", "FPS_Game", "Caffeine_Drink", "Song", "3"],
       answersFavorite: ["Samurott", "Toon Shaded", "Overwatch", "ZOA", "Lovers Rock", "December"],
       promptsStatistic: ["Pokemon_Emerald_Hours", "Pokemon_Go_Distance", "Max_Consecutive_Pushups"],
       answersStatistic: ["216", "11,623.4 km", "100+"],

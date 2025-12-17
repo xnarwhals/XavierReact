@@ -32,6 +32,9 @@ const Sidebar = () => {
                 <NavLink exact="true" activeClassName='portfolio-link' to = {isMobile ? "/quick-portfolio" : "/portfolio"} onClick={() => setShowNav(false)}>
                     <FontAwesomeIcon icon={faSuitcase} color="#4d4d4d" />
                 </NavLink>
+                <NavLink exact="true" activeClassName='achievments-link' to ="/achievments" onClick={() => setShowNav(false)}>
+                    <FontAwesomeIcon icon={faGamepad} color="#4d4d4d" />
+                </NavLink>
                 {isMobile && <NavLink exact="true" activeClassName="game-link" to="/gameboy" onClick={() => setShowNav(false)}>
                     <FontAwesomeIcon icon={faGamepad} color="#4d4d4d" />
                 </NavLink>}

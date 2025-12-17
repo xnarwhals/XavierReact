@@ -72,8 +72,8 @@ const QuickPortfolio = () => {
                         </li>
                         <li>
                             <h2>Tools</h2>
-                            <i class="devicon-visualstudio-plain" title="Visual Studio">
-                                <span>Visual Studio</span>
+                            <i class="devicon-visualstudio-plain" title="Visual Studio Code">
+                                <span>Visual Studio Code</span>
                             </i>
                             <i class="devicon-photoshop-plain" title="Photoshop">
                                 <span>Photoshop</span>
